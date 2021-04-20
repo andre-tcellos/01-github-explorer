@@ -1,0 +1,16 @@
+section.repository-list { max-width: 400px; margin: 40px;
+
+    h1 { margin-bottom: 1em; }
+    ul { list-style: none;
+
+        li {
+            &:not(:last-of-type) { margin-bottom: 1em; }
+
+            h4 { color: #333; font-size: 1.2em; }
+            p { font-size: .9em; color: #666; }
+            a { display: block; text-decoration: none; font-weight: bold; transition: all .2s linear; background-color: #7c2bd8; color: #fff; border-radius: 5px; padding: 3px; text-align: center;
+                &:hover { background-color: rgb(173, 102, 255); color: #000 }
+            }
+        }
+    }
+}
